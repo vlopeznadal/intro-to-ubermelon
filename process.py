@@ -5,7 +5,7 @@ def sales_reports(log_file): # function to print specific lines in text file
     for line in log_file: # for each line in the text file, do something
         line = line.rstrip() # take the line of text and remove white space
         day = line[0:3] # looking at the first three characters of the string
-        if day == "Tue": # if the first three characters of the string are "Tue"...
+        if day == "Mon": # if the first three characters of the string are "Tue"...
             print(line) #... print the line 
 
 
